@@ -17,15 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
+
 WebUI.navigateToUrl(GlobalVariable.url)
+
+WebUI.delay(4)
 WebUI.setText(findTestObject('LoginObject/inputUsername'), GlobalVariable.FirstName)
-WebUI.delay(2)
 WebUI.setText(findTestObject('LoginObject/inputEmail'), GlobalVariable.Email)
-WebUI.delay(2)
 WebUI.setText(findTestObject('LoginObject/inputPhone'), GlobalVariable.Phone)
-WebUI.delay(2)
 WebUI.setText(findTestObject('LoginObject/inputCompany'), GlobalVariable.Company)
-WebUI.delay(2)
 WebUI.click(findTestObject('LoginObject/buttonRequest'))
-WebUI.delay(5)
+WebUI.delay(10)
 WebUI.click(findTestObject('LoginObject/backRequest'))

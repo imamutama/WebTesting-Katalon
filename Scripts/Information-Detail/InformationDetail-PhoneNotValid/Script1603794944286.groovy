@@ -19,16 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.refresh()
+WebUI.delay(4)
 WebUI.setText(findTestObject('LoginObject/inputUsername'), GlobalVariable.FirstName)
 WebUI.setText(findTestObject('LoginObject/inputEmail'), GlobalVariable.Email)
 WebUI.setText(findTestObject('LoginObject/inputPhone'),"0821asfsdag")
-WebUI.delay(2)
 def failedPhone = WebUI.verifyElementText(findTestObject('LoginObject/elementPhoneFailed'), 'The phone field may only contain numeric characters')
 if(failedPhone){
 	println("Phone Number Not Valid Because Contain Numeric")
 }else{
 	return false;
 }
-WebUI.delay(2)
 WebUI.setText(findTestObject('LoginObject/inputCompany'), GlobalVariable.Company)
-WebUI.delay(2)

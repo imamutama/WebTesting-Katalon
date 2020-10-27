@@ -16,11 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+
+WebUI.openBrowser('')
+WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.delay(4)
 CustomKeywords.'com.information.informationDetail.UsernameNull'()
-
 CustomKeywords.'com.information.informationDetail.EmailNull'()
-
 CustomKeywords.'com.information.informationDetail.PhoneNull'()
-
 CustomKeywords.'com.information.informationDetail.CompanyNull'()
 

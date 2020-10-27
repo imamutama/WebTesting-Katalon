@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>InformationDetail</name>
+   <name>InformationDetail-Failed</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -11,12 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>209d62ef-133f-4842-a5ae-a3c3e30170d0</testSuiteGuid>
-   <testCaseLink>
-      <guid>b5b79b62-a607-4e23-a83f-4cd36404912b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Information-Detail/InformationDetail-Success</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>526b7acb-c231-4db0-b1b9-705e1ddb12df</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -57,21 +51,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2018055-7a67-4198-9d10-c1b744263f59</guid>
+      <guid>0967db77-5cdc-45d1-ad64-0eb7e1557d92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Information-Detail/InformationDetail-EmailNotValid</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>199a4976-0f44-4dc4-8a92-b5897bbf7381</guid>
+      <guid>b0413975-5a7a-475c-9759-cba77a9be953</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Information-Detail/InformationDetail-PhoneNotValid</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8deeed5b-1240-44b6-a189-6aa86406069d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Information-Detail/InformationDetail-2Language</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

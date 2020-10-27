@@ -43,7 +43,9 @@ public class informationDetail {
 	def EmailNull(){
 		TestData value = findTestData("dataInformation");
 		int row = value.getRowNumbers();
+		WebUI.delay(5)
 		WebUI.refresh()
+
 		WebUI.setText(findTestObject('LoginObject/inputUsername'),value.getValue("Username", row))
 		WebUI.setText(findTestObject('LoginObject/inputPhone'),value.getValue("Phone", row))
 		WebUI.setText(findTestObject('LoginObject/inputCompany'),value.getValue("Company", row))
@@ -60,7 +62,9 @@ public class informationDetail {
 	def PhoneNull(){
 		TestData value = findTestData("dataInformation");
 		int row = value.getRowNumbers();
+		WebUI.delay(5)
 		WebUI.refresh()
+
 		WebUI.setText(findTestObject('LoginObject/inputUsername'),value.getValue("Username", row))
 		WebUI.setText(findTestObject('LoginObject/inputEmail'),value.getValue("Email", row))
 		WebUI.setText(findTestObject('LoginObject/inputCompany'),value.getValue("Company", row))
@@ -78,6 +82,7 @@ public class informationDetail {
 		TestData value = findTestData("dataInformation");
 		int row = value.getRowNumbers();
 		WebUI.refresh()
+		WebUI.delay(4)
 		WebUI.setText(findTestObject('LoginObject/inputUsername'),value.getValue("Username", row))
 		WebUI.setText( findTestObject('LoginObject/inputEmail'),value.getValue("Email", row))
 		WebUI.setText(findTestObject('LoginObject/inputPhone'),value.getValue("Phone", row))

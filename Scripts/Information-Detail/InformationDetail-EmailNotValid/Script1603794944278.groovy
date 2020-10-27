@@ -16,9 +16,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.refresh()
+WebUI.delay(4)
 WebUI.setText(findTestObject('LoginObject/inputUsername'), GlobalVariable.FirstName)
 WebUI.setText(findTestObject('LoginObject/inputEmail'), "utama")
-WebUI.delay(2)
 def emailNotValid = WebUI.verifyElementText(findTestObject("Object Repository/LoginObject/elementEmailFailed"),'The email field must be a valid email')
 if(emailNotValid){
 	println("Email tidak valid")

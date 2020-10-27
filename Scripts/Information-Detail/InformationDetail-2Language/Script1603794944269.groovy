@@ -22,6 +22,7 @@ int row = 2
 
 for (int loop = 1; loop <= row; loop++) {
 	if (loop == 1) {
+		WebUI.delay(2)
 		WebUI.click(findTestObject('LoginObject/span_English'))
 		WebUI.click(findTestObject('LoginObject/selectIndonesia'))
 		WebUI.setText(findTestObject('LoginObject/masukanNama'), GlobalVariable.FirstName)
@@ -29,10 +30,12 @@ for (int loop = 1; loop <= row; loop++) {
 		WebUI.setText(findTestObject('LoginObject/masukanNomer'), GlobalVariable.Phone)
 		WebUI.setText(findTestObject('LoginObject/masukanPerusahaan'), GlobalVariable.Company)
 		WebUI.click(findTestObject('LoginObject/buttonAjukan'))
+		WebUI.delay(10)
 		WebUI.click(findTestObject('LoginObject/kembaliAjukan'))
 	}
 
 	if (loop == 2) {
+		WebUI.delay(2)
 		WebUI.click(findTestObject('LoginObject/span_Indonesia'))
 		WebUI.click(findTestObject('LoginObject/li_English'))
 		WebUI.setText(findTestObject('LoginObject/inputUsername'), GlobalVariable.FirstName)
