@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="InformationDetail" time="403.797" tests="5" failures="0" errors="0">
+   <testsuite name="InformationDetail" tests="5" failures="0" errors="0" time="403.797" timestamp="2020-10-27 17:43:31" hostname="Imam Setya Utama - MSI" id="Test Suites/Information-Detail/InformationDetail">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Imam Setya Utama\\git\\Webtesting-Katalon\\Reports\\20201027_174329\\Information-Detail\\InformationDetail\\20201027_174329"/>
+         <property name="logFiles" value="C:\\Users\\Imam Setya Utama\\git\\Webtesting-Katalon\\Reports\\20201027_174329\\Information-Detail\\InformationDetail\\20201027_174329\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Imam Setya Utama - MSI"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.0.205"/>
+         <property name="browser" value="Firefox 81.0"/>
+         <property name="hostAddress" value="192.168.57.97"/>
+         <property name="sessionId" value="d9d5991d-b63a-4bf1-8a86-291db331e240"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=proxy1.bri.co.id, proxyServerPort=1707, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Information-Detail/InformationDetail-Success" time="117.942" classname="Test Cases/Information-Detail/InformationDetail-Success" status="PASSED">
+         <system-out><![CDATA[2020-10-27 17:43:32 - [TEST_CASE][PASSED] - Test Cases/Information-Detail/InformationDetail-Success: Test Cases/Information-Detail/InformationDetail-Success
+
+2020-10-27 17:43:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-27 17:43:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-27 17:43:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-27 17:43:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-27 17:43:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dev.mile.app/request-demo' successfully
+
+2020-10-27 17:44:04 - [MESSAGE][PASSED] - Navigate to 'https://dev.mile.app/request-demo' successfully
+
+2020-10-27 17:44:04 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputUsername"), FirstName): Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:44:35 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:44:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:44:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-27 17:44:37 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputEmail"), Email): Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:44:43 - [MESSAGE][PASSED] - Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:44:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:44:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-27 17:44:45 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputPhone"), Phone): Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:44:46 - [MESSAGE][PASSED] - Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:44:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:44:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-27 17:44:48 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputCompany"), Company): Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:44:48 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:44:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:44:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-27 17:44:50 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/buttonRequest")): Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:44:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-27 17:44:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-27 17:44:56 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/backRequest")): Object: 'Object Repository/LoginObject/backRequest' is clicked on
+
+2020-10-27 17:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/backRequest' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Information-Detail/InformationDetail-VariantNull" time="95.607" classname="Test Cases/Information-Detail/InformationDetail-VariantNull" status="PASSED">
+         <system-out><![CDATA[2020-10-27 17:45:30 - [TEST_CASE][PASSED] - Test Cases/Information-Detail/InformationDetail-VariantNull: Test Cases/Information-Detail/InformationDetail-VariantNull
+
+2020-10-27 17:45:30 - [TEST_STEP][PASSED] - com.information.informationDetail.UsernameNull(): com.information.informationDetail.UsernameNull is PASSED
+
+2020-10-27 17:45:32 - [MESSAGE][PASSED] - Text 'utamaimam04@gmail.com' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:45:33 - [MESSAGE][PASSED] - Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:45:33 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:45:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/nameRequired' are matched.
+
+2020-10-27 17:45:39 - [MESSAGE][PASSED] - com.information.informationDetail.UsernameNull is PASSED
+
+2020-10-27 17:45:39 - [TEST_STEP][PASSED] - com.information.informationDetail.EmailNull(): com.information.informationDetail.EmailNull is PASSED
+
+2020-10-27 17:45:44 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-10-27 17:45:46 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:45:47 - [MESSAGE][PASSED] - Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:45:50 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:45:51 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:45:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/emailRequired' are matched.
+
+2020-10-27 17:45:56 - [MESSAGE][PASSED] - com.information.informationDetail.EmailNull is PASSED
+
+2020-10-27 17:45:56 - [TEST_STEP][PASSED] - com.information.informationDetail.PhoneNull(): com.information.informationDetail.PhoneNull is PASSED
+
+2020-10-27 17:46:01 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-10-27 17:46:04 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:46:07 - [MESSAGE][PASSED] - Text 'utamaimam04@gmail.com' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:46:08 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:46:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/phoneRequired' are matched.
+
+2020-10-27 17:46:15 - [MESSAGE][PASSED] - com.information.informationDetail.PhoneNull is PASSED
+
+2020-10-27 17:46:15 - [TEST_STEP][PASSED] - com.information.informationDetail.CompanyNull(): com.information.informationDetail.CompanyNull is PASSED
+
+2020-10-27 17:46:20 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-10-27 17:46:22 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:46:25 - [MESSAGE][PASSED] - Text 'utamaimam04@gmail.com' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:46:29 - [MESSAGE][PASSED] - Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:46:59 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:47:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/companyRequired' are matched.
+
+2020-10-27 17:47:05 - [MESSAGE][PASSED] - com.information.informationDetail.CompanyNull is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Information-Detail/InformationDetail-EmailNotValid" time="5.114" classname="Test Cases/Information-Detail/InformationDetail-EmailNotValid" status="PASSED">
+         <system-out><![CDATA[2020-10-27 17:47:05 - [TEST_CASE][PASSED] - Test Cases/Information-Detail/InformationDetail-EmailNotValid: Test Cases/Information-Detail/InformationDetail-EmailNotValid
+
+2020-10-27 17:47:05 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputUsername"), FirstName): Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:47:06 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:47:06 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputEmail"), "utama"): Text 'utama' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:47:07 - [MESSAGE][PASSED] - Text 'utama' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:47:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:47:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-27 17:47:09 - [TEST_STEP][PASSED] - emailNotValid = verifyElementText(findTestObject("Object Repository/LoginObject/elementEmailFailed"), "The email field must be a valid email"): Actual text and expected text of test object 'Object Repository/LoginObject/elementEmailFailed' are matched.
+
+2020-10-27 17:47:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/elementEmailFailed' are matched.
+
+2020-10-27 17:47:09 - [TEST_STEP][PASSED] - if (emailNotValid): null
+
+2020-10-27 17:47:09 - [TEST_STEP][PASSED] - println("Email tidak valid"): null
+
+2020-10-27 17:47:09 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputPhone"), Phone): Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:47:10 - [MESSAGE][PASSED] - Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputCompany"), Company): Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:47:10 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Information-Detail/InformationDetail-PhoneNotValid" time="9.421" classname="Test Cases/Information-Detail/InformationDetail-PhoneNotValid" status="PASSED">
+         <system-out><![CDATA[2020-10-27 17:47:10 - [TEST_CASE][PASSED] - Test Cases/Information-Detail/InformationDetail-PhoneNotValid: Test Cases/Information-Detail/InformationDetail-PhoneNotValid
+
+2020-10-27 17:47:11 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputUsername"), FirstName): Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:47:11 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:47:11 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputEmail"), Email): Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:47:12 - [MESSAGE][PASSED] - Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputPhone"), "0821asfsdag"): Text '0821asfsdag' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:47:13 - [MESSAGE][PASSED] - Text '0821asfsdag' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:47:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:47:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-27 17:47:15 - [TEST_STEP][PASSED] - failedPhone = verifyElementText(findTestObject("LoginObject/elementPhoneFailed"), "The phone field may only contain numeric characters"): Actual text and expected text of test object 'Object Repository/LoginObject/elementPhoneFailed' are matched.
+
+2020-10-27 17:47:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LoginObject/elementPhoneFailed' are matched.
+
+2020-10-27 17:47:15 - [TEST_STEP][PASSED] - if (failedPhone): null
+
+2020-10-27 17:47:15 - [TEST_STEP][PASSED] - println("Phone Number Not Valid Because Contain Numeric"): null
+
+2020-10-27 17:47:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:47:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-27 17:47:17 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputCompany"), Company): Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:47:18 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:47:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-27 17:47:20 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Information-Detail/InformationDetail-2Language" time="173.661" classname="Test Cases/Information-Detail/InformationDetail-2Language" status="PASSED">
+         <system-out><![CDATA[2020-10-27 17:47:20 - [TEST_CASE][PASSED] - Test Cases/Information-Detail/InformationDetail-2Language: Test Cases/Information-Detail/InformationDetail-2Language
+
+2020-10-27 17:47:20 - [TEST_STEP][PASSED] - row = 2: null
+
+2020-10-27 17:47:20 - [TEST_STEP][PASSED] - for ([loop = 1, loop <= row, (loop++)]): Object 'Object Repository/LoginObject/EnglishElement' is present
+
+2020-10-27 17:47:20 - [TEST_STEP][PASSED] - if (loop == 1): Object: 'Object Repository/LoginObject/kembaliAjukan' is clicked on
+
+2020-10-27 17:47:20 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/span_English")): Object: 'Object Repository/LoginObject/span_English' is clicked on
+
+2020-10-27 17:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/span_English' is clicked on
+
+2020-10-27 17:47:21 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/selectIndonesia")): Object: 'Object Repository/LoginObject/selectIndonesia' is clicked on
+
+2020-10-27 17:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/selectIndonesia' is clicked on
+
+2020-10-27 17:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/masukanNama"), FirstName): Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/masukanNama'
+
+2020-10-27 17:47:22 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/masukanNama'
+
+2020-10-27 17:47:23 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/masukanEmail"), Email): Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/masukanEmail'
+
+2020-10-27 17:47:23 - [MESSAGE][PASSED] - Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/masukanEmail'
+
+2020-10-27 17:47:23 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/masukanNomer"), Phone): Text '0895403495533' is set on object 'Object Repository/LoginObject/masukanNomer'
+
+2020-10-27 17:47:24 - [MESSAGE][PASSED] - Text '0895403495533' is set on object 'Object Repository/LoginObject/masukanNomer'
+
+2020-10-27 17:47:24 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/masukanPerusahaan"), Company): Text 'BRI' is set on object 'Object Repository/LoginObject/masukanPerusahaan'
+
+2020-10-27 17:47:25 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/masukanPerusahaan'
+
+2020-10-27 17:47:25 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/buttonAjukan")): Object: 'Object Repository/LoginObject/buttonAjukan' is clicked on
+
+2020-10-27 17:47:25 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/buttonAjukan' is clicked on
+
+2020-10-27 17:47:25 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/kembaliAjukan")): Object: 'Object Repository/LoginObject/kembaliAjukan' is clicked on
+
+2020-10-27 17:47:37 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/kembaliAjukan' is clicked on
+
+2020-10-27 17:47:37 - [TEST_STEP][PASSED] - if (loop == 2): null
+
+2020-10-27 17:47:37 - [TEST_STEP][PASSED] - if (loop == 1): null
+
+2020-10-27 17:47:37 - [TEST_STEP][PASSED] - if (loop == 2): Object 'Object Repository/LoginObject/EnglishElement' is present
+
+2020-10-27 17:47:37 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/span_Indonesia")): Object: 'Object Repository/LoginObject/span_Indonesia' is clicked on
+
+2020-10-27 17:47:39 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/span_Indonesia' is clicked on
+
+2020-10-27 17:47:39 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/li_English")): Object: 'Object Repository/LoginObject/li_English' is clicked on
+
+2020-10-27 17:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/li_English' is clicked on
+
+2020-10-27 17:47:40 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputUsername"), FirstName): Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:48:40 - [MESSAGE][PASSED] - Text 'Imam Setya Utama' is set on object 'Object Repository/LoginObject/inputUsername'
+
+2020-10-27 17:48:40 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputEmail"), Email): Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:48:59 - [MESSAGE][PASSED] - Text 'utamaimam04@gmail.com
+' is set on object 'Object Repository/LoginObject/inputEmail'
+
+2020-10-27 17:48:59 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputPhone"), Phone): Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:49:00 - [MESSAGE][PASSED] - Text '0895403495533' is set on object 'Object Repository/LoginObject/inputPhone'
+
+2020-10-27 17:49:00 - [TEST_STEP][PASSED] - setText(findTestObject("LoginObject/inputCompany"), Company): Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:49:31 - [MESSAGE][PASSED] - Text 'BRI' is set on object 'Object Repository/LoginObject/inputCompany'
+
+2020-10-27 17:49:31 - [TEST_STEP][PASSED] - click(findTestObject("LoginObject/buttonRequest")): Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:50:01 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginObject/buttonRequest' is clicked on
+
+2020-10-27 17:50:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-10-27 17:50:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-10-27 17:50:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("LoginObject/EnglishElement"), 10): Object 'Object Repository/LoginObject/EnglishElement' is present
+
+2020-10-27 17:50:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoginObject/EnglishElement' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-27 17:43:31 - [TEST_SUITE][PASSED] - InformationDetail: Test Cases/Information-Detail/InformationDetail-2Language]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

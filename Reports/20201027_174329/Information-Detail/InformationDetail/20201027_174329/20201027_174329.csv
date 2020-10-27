@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+InformationDetail,Firefox 81.0,,,2020-10-27 17:43:31,2020-10-27 17:50:13,6m - 42.152s,PASSED
+,,,,,,,
+Test Cases/Information-Detail/InformationDetail-Success,Firefox 81.0,,,2020-10-27 17:43:32,2020-10-27 17:45:29,1m - 57.942s,PASSED
+"openBrowser("""")",Firefox 81.0,,,2020-10-27 17:43:32,2020-10-27 17:43:59,27.096s,PASSED
+navigateToUrl(url),Firefox 81.0,,,2020-10-27 17:43:59,2020-10-27 17:44:04,4.514s,PASSED
+"setText(findTestObject(""LoginObject/inputUsername""), FirstName)",Firefox 81.0,,,2020-10-27 17:44:04,2020-10-27 17:44:35,31.670s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:44:35,2020-10-27 17:44:37,2.029s,PASSED
+"setText(findTestObject(""LoginObject/inputEmail""), Email)",Firefox 81.0,,,2020-10-27 17:44:37,2020-10-27 17:44:43,5.652s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:44:43,2020-10-27 17:44:45,2.006s,PASSED
+"setText(findTestObject(""LoginObject/inputPhone""), Phone)",Firefox 81.0,,,2020-10-27 17:44:45,2020-10-27 17:44:46,0.676s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:44:46,2020-10-27 17:44:48,2.006s,PASSED
+"setText(findTestObject(""LoginObject/inputCompany""), Company)",Firefox 81.0,,,2020-10-27 17:44:48,2020-10-27 17:44:48,0.695s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:44:48,2020-10-27 17:44:50,2.006s,PASSED
+"click(findTestObject(""LoginObject/buttonRequest""))",Firefox 81.0,,,2020-10-27 17:44:50,2020-10-27 17:44:51,0.647s,PASSED
+delay(5),Firefox 81.0,,,2020-10-27 17:44:51,2020-10-27 17:44:56,5.006s,PASSED
+"click(findTestObject(""LoginObject/backRequest""))",Firefox 81.0,,,2020-10-27 17:44:56,2020-10-27 17:45:29,33.492s,PASSED
+,,,,,,,
+Test Cases/Information-Detail/InformationDetail-VariantNull,Firefox 81.0,,,2020-10-27 17:45:30,2020-10-27 17:47:05,1m - 35.607s,PASSED
+com.information.informationDetail.UsernameNull(),Firefox 81.0,,,2020-10-27 17:45:30,2020-10-27 17:45:39,9.369s,PASSED
+com.information.informationDetail.EmailNull(),Firefox 81.0,,,2020-10-27 17:45:39,2020-10-27 17:45:56,17.161s,PASSED
+com.information.informationDetail.PhoneNull(),Firefox 81.0,,,2020-10-27 17:45:56,2020-10-27 17:46:15,19.040s,PASSED
+com.information.informationDetail.CompanyNull(),Firefox 81.0,,,2020-10-27 17:46:15,2020-10-27 17:47:05,49.665s,PASSED
+,,,,,,,
+Test Cases/Information-Detail/InformationDetail-EmailNotValid,Firefox 81.0,,,2020-10-27 17:47:05,2020-10-27 17:47:10,5.114s,PASSED
+"setText(findTestObject(""LoginObject/inputUsername""), FirstName)",Firefox 81.0,,,2020-10-27 17:47:05,2020-10-27 17:47:06,0.681s,PASSED
+"setText(findTestObject(""LoginObject/inputEmail""), ""utama"")",Firefox 81.0,,,2020-10-27 17:47:06,2020-10-27 17:47:07,0.618s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:47:07,2020-10-27 17:47:09,2.004s,PASSED
+"emailNotValid = verifyElementText(findTestObject(""Object Repository/LoginObject/elementEmailFailed""), ""The email field must be a valid email"")",Firefox 81.0,,,2020-10-27 17:47:09,2020-10-27 17:47:09,0.356s,PASSED
+if (emailNotValid),Firefox 81.0,,,2020-10-27 17:47:09,2020-10-27 17:47:09,0.006s,PASSED
+"setText(findTestObject(""LoginObject/inputPhone""), Phone)",Firefox 81.0,,,2020-10-27 17:47:09,2020-10-27 17:47:10,0.604s,PASSED
+"setText(findTestObject(""LoginObject/inputCompany""), Company)",Firefox 81.0,,,2020-10-27 17:47:10,2020-10-27 17:47:10,0.602s,PASSED
+,,,,,,,
+Test Cases/Information-Detail/InformationDetail-PhoneNotValid,Firefox 81.0,,,2020-10-27 17:47:10,2020-10-27 17:47:20,9.421s,PASSED
+"setText(findTestObject(""LoginObject/inputUsername""), FirstName)",Firefox 81.0,,,2020-10-27 17:47:11,2020-10-27 17:47:11,0.631s,PASSED
+"setText(findTestObject(""LoginObject/inputEmail""), Email)",Firefox 81.0,,,2020-10-27 17:47:11,2020-10-27 17:47:12,0.627s,PASSED
+"setText(findTestObject(""LoginObject/inputPhone""), ""0821asfsdag"")",Firefox 81.0,,,2020-10-27 17:47:12,2020-10-27 17:47:13,0.849s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:47:13,2020-10-27 17:47:15,2.005s,PASSED
+"failedPhone = verifyElementText(findTestObject(""LoginObject/elementPhoneFailed""), ""The phone field may only contain numeric characters"")",Firefox 81.0,,,2020-10-27 17:47:15,2020-10-27 17:47:15,0.379s,PASSED
+if (failedPhone),Firefox 81.0,,,2020-10-27 17:47:15,2020-10-27 17:47:15,0.002s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:47:15,2020-10-27 17:47:17,2.004s,PASSED
+"setText(findTestObject(""LoginObject/inputCompany""), Company)",Firefox 81.0,,,2020-10-27 17:47:17,2020-10-27 17:47:18,0.652s,PASSED
+delay(2),Firefox 81.0,,,2020-10-27 17:47:18,2020-10-27 17:47:20,2.003s,PASSED
+,,,,,,,
+Test Cases/Information-Detail/InformationDetail-2Language,Firefox 81.0,,,2020-10-27 17:47:20,2020-10-27 17:50:13,2m - 53.661s,PASSED
+row = 2,Firefox 81.0,,,2020-10-27 17:47:20,2020-10-27 17:47:20,0.001s,PASSED
+"for ([loop = 1, loop <= row, (loop++)])",Firefox 81.0,,,2020-10-27 17:47:20,2020-10-27 17:50:13,2m - 53.396s,PASSED

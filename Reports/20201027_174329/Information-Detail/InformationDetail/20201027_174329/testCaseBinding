@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/Information-Detail/InformationDetail-Success","testCaseId":"Test Cases/Information-Detail/InformationDetail-Success"}
+{"testCaseName":"Test Cases/Information-Detail/InformationDetail-VariantNull","testCaseId":"Test Cases/Information-Detail/InformationDetail-VariantNull","bindedValues":{"Company":"\u0027BRI\u0027","Email":"\u0027utamaimam04@gmail.com\u0027","Username":"\u0027Imam Setya Utama\u0027","Phone":"\u00270895403495533\u0027"}}
+{"testCaseName":"Test Cases/Information-Detail/InformationDetail-EmailNotValid","testCaseId":"Test Cases/Information-Detail/InformationDetail-EmailNotValid"}
+{"testCaseName":"Test Cases/Information-Detail/InformationDetail-PhoneNotValid","testCaseId":"Test Cases/Information-Detail/InformationDetail-PhoneNotValid"}
+{"testCaseName":"Test Cases/Information-Detail/InformationDetail-2Language","testCaseId":"Test Cases/Information-Detail/InformationDetail-2Language"}

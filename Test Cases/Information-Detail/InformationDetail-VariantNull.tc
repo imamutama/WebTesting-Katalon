@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InformationDetail-VariantNull</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc9d62db-34b6-4434-b299-c2a25677eda5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>235b6e9e-3b6c-4c14-9aba-bf8bfa4576dd</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>425797a8-6b30-46fb-9cf8-f7c2963bfa6c</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f88f480-9986-4e65-948a-e3b171f16436</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f7a1382-0c56-4d65-8b0e-3cf99c5cfeb6</id>
+      <masked>false</masked>
+      <name>Company</name>
+   </variable>
+</TestCaseEntity>
